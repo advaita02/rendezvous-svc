@@ -49,7 +49,7 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'https://api-rendezvous.techwiz.tech',
+      url: 'https://rendezvous-svc.onrender.com',
       description: 'Deploy server',
     },
     {
