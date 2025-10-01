@@ -27,7 +27,6 @@ const userSchema = new mongoose.Schema({
 });
 
 userSchema.index({ location: '2dsphere' });
-userSchema.index({ username: 1 }, { unique: true });
 
 //Hash password
 userSchema.pre('save', async function (next) {
