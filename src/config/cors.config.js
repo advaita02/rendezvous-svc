@@ -7,6 +7,7 @@ const allowedOrigins = [
     FRONTEND_URL,
     LOCALHOST_URL,
     'https://rendezvous.techwiz.tech',
+    'https://rendezvous-mu.vercel.app'
 ];
 
 const corsOptions = {
