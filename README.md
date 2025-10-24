@@ -25,7 +25,15 @@ It is responsible for handling data, authentication, and API logic that powers t
 - Manage friend requests, interactions, and notifications.  
 - Expose API documentation through **Swagger UI** for easy testing.  
 
+**Deployment:**
+- The backend service is deployed on **Render Cloud Platform**.
+- Live API base URL:
+  👉 [https://rendezvous-svc.onrender.com](https://rendezvous-svc.onrender.com)  
+- Swagger API documentation:  
+  👉 [https://rendezvous-svc.onrender.com/api-docs](https://rendezvous-svc.onrender.com/api-docs)
+
 _This backend is actively under development._
+
 ---
 ### 2. Built with
 
@@ -36,6 +44,7 @@ This project is built with the following main technologies:
 - ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 - ![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
 - ...
+
 ---
 ### 3. Data Model (EER Simulation for MongoDB)
 
@@ -45,7 +54,6 @@ You can view the full data model here:
 [View on dbdiagram.io](https://dbdiagram.io/d/Rendezvous-683963c3bd74709cb73de921)
 
 ---
-
 #### Main Collections
 
 | Collection | Description (EN) |
@@ -64,7 +72,6 @@ You can view the full data model here:
 | **ActivePost** | Cached data for currently active posts for quick nearby lookup. |
 
 ---
-
 #### Relationships Overview
 
 - **User – Post:** one-to-many -> A user can have many posts.
@@ -76,14 +83,12 @@ You can view the full data model here:
 - **Post – ActivePost:** one-to-one -> One post has one active post. ActivePost is a temporary copy of Post used for fast searching.
 
 ---
-
 #### EER Diagram Preview
 > *(Click the image or link below to view full diagram on dbdiagram.io)*
 
 [![EER Diagram](Rendezvous-EER.png)](https://dbdiagram.io/d/Rendezvous-683963c3bd74709cb73de921)
 
 ---
-
 ### 4. Installation & Run
 
 #### Requirements
@@ -95,7 +100,6 @@ Before running the project, make sure you have:
 - [Git](https://git-scm.com/)
 
 ---
-
 #### 1. Clone the repository
 
 ```bash
