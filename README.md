@@ -1,4 +1,4 @@
-# RENDEZVOUS - Location-Based Social App For Meetups
+# RENDEZVOUS
 
 ### 1. Functional Overview
 
@@ -28,9 +28,9 @@ It is responsible for handling data, authentication, and API logic that powers t
 **Deployment:**
 - The backend service is deployed on **Render Cloud Platform**.
 - Live API base URL:
-  👉 [https://rendezvous-svc.onrender.com](https://rendezvous-svc.onrender.com)  
-- Swagger API documentation:  
-  👉 [https://rendezvous-svc.onrender.com/api-docs](https://rendezvous-svc.onrender.com/api-docs)
+    👉 [https://rendezvous-svc.onrender.com](https://rendezvous-svc.onrender.com)  
+- Swagger API documentation:
+    👉 [https://rendezvous-svc.onrender.com/api-docs](https://rendezvous-svc.onrender.com/api-docs)
 
 _This backend is actively under development._
 
