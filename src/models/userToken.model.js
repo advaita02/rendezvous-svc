@@ -4,11 +4,11 @@ const UserTokenSchema = new mongoose.Schema({
     user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, },
     accessToken: { type: String, required: true, },
     refreshToken: { type: String, required: true, unique: true, },
-    userAgent: { type: String, }, //mô tả OS hay Browser đăng nhập
-    ipAddress: { type: String, }, //Địa chỉ IP thiết bị người dùng
+    userAgent: { type: String, },
+    ipAddress: { type: String, },
     accessTokenExpiresAt: { type: Date, required: true, },
     refreshTokenExpiresAt: { type: Date, required: true, },
-    deletedAt: { type: Date, default: null }, //maybe đổi lại.
+    deletedAt: { type: Date, default: null },
 }, {
     timestamps: true,
 });
