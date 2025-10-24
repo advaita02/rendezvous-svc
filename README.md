@@ -48,20 +48,20 @@ You can view the full data model here:
 
 #### Main Collections
 
-| Collection | Description (EN) | Mô tả (VI) |
-|-------------|------------------|-------------|
-| **User** | Stores user profiles, authentication info, location, and account type (Regular/Premium). | Lưu thông tin người dùng, xác thực, vị trí và loại tài khoản (Thường/Premium). |
-| **UserToken** | Stores access/refresh tokens, linked with device info. | Lưu token truy cập, thiết bị và IP của người dùng. |
-| **Setting** | Key-value configuration table for global system settings. | Bảng cấu hình toàn cục dạng key-value. |
-| **PremiumUpgrade** | Tracks premium upgrade transactions and expiration dates. | Theo dõi việc nâng cấp Premium và thời hạn. |
-| **Post** | Represents user invitations (meetups) with content, image, location, and expiry time. | Đại diện cho “lời rủ rê” của người dùng gồm nội dung, ảnh, vị trí và thời gian hết hạn. |
-| **Participant** | Tracks users joining a post and their approval status. | Theo dõi người tham gia lời rủ rê và trạng thái duyệt. |
-| **Notification** | Stores notifications for comments, likes, friend requests, etc. | Lưu thông báo về bình luận, tương tác, yêu cầu kết bạn, v.v. |
-| **Interaction** | Records user interactions on posts (like, dislike, join). | Ghi lại tương tác của người dùng với bài đăng. |
-| **Image** | Stores uploaded images and metadata (e.g., S3 key, uploader). | Lưu ảnh được tải lên cùng thông tin mô tả. |
-| **FriendRequest** | Manages friend request relationships between users. | Quản lý yêu cầu kết bạn giữa người dùng. |
-| **Comment** | User comments under posts. | Bình luận của người dùng dưới bài đăng. |
-| **ActivePost** | Cached data for currently active posts for quick nearby lookup. | Dữ liệu tạm cho các bài đăng đang hoạt động nhằm tăng tốc truy vấn vị trí. |
+| Collection | Description (EN) |
+|-------------|------------------|
+| **User** | Stores user profiles, authentication info, location, and account type (Regular/Premium). |
+| **UserToken** | Stores access/refresh tokens, linked with device info. |
+| **Setting** | Key-value configuration table for global system settings. |
+| **PremiumUpgrade** | Tracks premium upgrade transactions and expiration dates. |
+| **Post** | Represents user invitations (meetups) with content, image, location, and expiry time. |
+| **Participant** | Tracks users joining a post and their approval status. |
+| **Notification** | Stores notifications for comments, likes, friend requests, etc. |
+| **Interaction** | Records user interactions on posts (like, dislike, join). |
+| **Image** | Stores uploaded images and metadata (e.g., S3 key, uploader). |
+| **FriendRequest** | Manages friend request relationships between users. |
+| **Comment** | User comments under posts. |
+| **ActivePost** | Cached data for currently active posts for quick nearby lookup. |
 
 ---
 
