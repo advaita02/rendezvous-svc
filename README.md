@@ -25,15 +25,19 @@ It is responsible for handling data, authentication, and API logic that supports
 - Manage posts, friend requests, interactions, and notifications.
 - Expose API documentation through **Swagger UI** for easy testing.
 
-**Deployment:**
-- The backend service is deployed on **Render**.
-- Live API base URL:
-    👉 [https://rendezvous-svc.onrender.com](https://rendezvous-svc.onrender.com)
-- Swagger API documentation:
-    👉 [https://rendezvous-svc.onrender.com/api-docs](https://rendezvous-svc.onrender.com/api-docs)
+**Deployment**
 
-- Frontend app: deployed on Vercel
-- Live site: 👉 [https://rendezvous-mu.vercel.app](https://rendezvous-mu.vercel.app)
+**Backend Service**
+- **Platform:** Render  
+- **Live API Base URL:**  
+  👉 [https://rendezvous-svc.onrender.com](https://rendezvous-svc.onrender.com)  
+- **Swagger API Documentation:**  
+  👉 [https://rendezvous-svc.onrender.com/api-docs](https://rendezvous-svc.onrender.com/api-docs)
+
+**Frontend App**
+- **Platform:** Vercel  
+- **Live Site:**  
+  👉 [https://rendezvous-mu.vercel.app](https://rendezvous-mu.vercel.app)
 
 _This backend is under development._
 
