@@ -29,15 +29,12 @@ It is responsible for handling data, authentication, and API logic that supports
 
 **Backend Service**
 - **Platform:** Render  
-- **Live API Base URL:**  
-  👉 [https://rendezvous-svc.onrender.com](https://rendezvous-svc.onrender.com)  
-- **Swagger API Documentation:**  
-  👉 [https://rendezvous-svc.onrender.com/api-docs](https://rendezvous-svc.onrender.com/api-docs)
+- **Live API Base URL:** [https://rendezvous-svc.onrender.com](https://rendezvous-svc.onrender.com)  
+- **Swagger API Documentation:** [https://rendezvous-svc.onrender.com/api-docs](https://rendezvous-svc.onrender.com/api-docs)
 
 **Frontend App**
 - **Platform:** Vercel  
-- **Live Site:**  
-  👉 [https://rendezvous-mu.vercel.app](https://rendezvous-mu.vercel.app)
+- **Live Site:** [https://rendezvous-mu.vercel.app](https://rendezvous-mu.vercel.app)
 
 _This backend is under development._
 
