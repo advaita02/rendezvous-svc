@@ -2,11 +2,11 @@
 
 ### 1. Functional Overview
 
-**Rendezvous** is a mobile/web social networking platform designed to connect people based on their geographic location. It allows users to easily discover and join social gatherings such as coffee meetups or hangouts, through posts created by other users. The app emphasizes casual plans and real-world interaction, helping users connect with others who share similar interests nearby.
+**Rendezvous** is a mobile/web social networking platform designed to connect people based on their geographic location. It allows users to easily discover and join social gatherings such as coffee meetups or hangouts, through posts created by other users. The app emphasizes casual plans and real-world interaction, helping users connect with others nearby who share similar interests.
 
 **Main Objectives:**
 - Allow users to create short-term meetup posts ("invitations") with location and images.
-- Display active invitations within a nearby radius of the user.
+- Display active posts (invitations) within a nearby radius of the user.
 - Provide simple interaction tools (like, dislike, join, comment) for each invitation.
 - Support friend connections and privacy control for posts.
 - Separate Regular and Premium users.
