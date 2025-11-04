@@ -32,6 +32,9 @@ It is responsible for handling data, authentication, and API logic that supports
 - Swagger API documentation:
     👉 [https://rendezvous-svc.onrender.com/api-docs](https://rendezvous-svc.onrender.com/api-docs)
 
+- Frontend app: deployed on Vercel
+- Live site: 👉 [https://rendezvous-mu.vercel.app](https://rendezvous-mu.vercel.app)
+
 _This backend is under development._
 
 ---
